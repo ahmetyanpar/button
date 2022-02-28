@@ -1,0 +1,30 @@
+.btn-container {
+    display: flex;
+    background-color: #4E4E50;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background-size: 200% 200%;
+    transition: background-position 2s;
+    color: white;
+}
+
+.slide-right{
+    background-image: linear-gradient(to right, #990F02 50%, black 0);
+    background-position: right;
+}
+
+.slide-right:hover {
+    background-position: left;
+}
+
+body {
+    margin: 0;
+}
